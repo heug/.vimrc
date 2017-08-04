@@ -4,5 +4,5 @@ vimrc:
 		&& sudo apt-get install vim \
 		&& git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim \
 		&& mv vimrc/.vimrc ~/ \
-		&& mv vimrc/molokai.vim ~/.vim/colors
+		&& mv vimrc/molokai.vim ~/.vim/colors \
 		&& vim +PluginInstall +qall \
