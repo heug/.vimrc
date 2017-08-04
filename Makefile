@@ -6,4 +6,4 @@ all:
 		&& mv vimrc/.vimrc ~/ \
 		&& mkdir ~/.vim/colors \
 		&& mv vimrc/molokai.vim ~/.vim/colors/molokai.vim \
-		&& vim +PluginInstall +qall \
+		&& echo | vim +PluginInstall +qall \
